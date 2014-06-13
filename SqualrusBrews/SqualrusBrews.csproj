@@ -170,6 +170,11 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Images\child.jpg" />
+    <Content Include="Content\Images\friends.jpg" />
+    <Content Include="Content\Images\plane.jpg" />
+    <Content Include="Content\Images\road.jpg" />
+    <Content Include="Content\Images\welcome.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -179,6 +184,7 @@
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\stream.min.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -211,6 +217,20 @@
     <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Beer\Index.cshtml" />
+    <Content Include="Styles\Buttons.less" />
+    <Content Include="Styles\Definition\Color.d.less" />
+    <Content Include="Styles\Definition\Font.d.less" />
+    <Content Include="Styles\Definition\Mixin.d.less" />
+    <Content Include="Styles\Icons.less" />
+    <Content Include="Styles\Layout.less" />
+    <Content Include="Styles\Lib\FontAwesome.less" />
+    <Content Include="Styles\Lib\Reset.less" />
+    <Content Include="Styles\Main.less" />
+    <Content Include="Styles\Navigation.less" />
+    <Content Include="Styles\Sections.less" />
+    <Content Include="Styles\squalrusbrews.less" />
+    <Content Include="Styles\squalrusbrews.responsive.less" />
+    <Content Include="Styles\Table.less" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
