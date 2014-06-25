@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "file": "Sections.css",
+  "sources": [
+    "Sections.less"
+  ],
+  "names": [],
+  "mappings": "AAAA;EACI,eAAA;;AAGJ;EACI,6DAAA;EACA,yBAAA;EACA,WAAA;;AAGJ;EACI,kDAAA;EACA,WAAA"
+}

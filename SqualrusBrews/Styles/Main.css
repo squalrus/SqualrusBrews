@@ -1,0 +1,119 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,900);
+html {
+  font-size: 100%;
+}
+body {
+  background-color: #f4f4f4;
+  color: #333333;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+a:link,
+a:visited {
+  color: #4690e0;
+  text-decoration: none;
+}
+a:active,
+a:hover {
+  color: #4690e0;
+  text-decoration: underline;
+}
+p {
+  line-height: 1.6em;
+  margin: 1.0em 0;
+}
+h1 {
+  color: arial, helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 54px;
+  font-weight: 900;
+  margin-bottom: .6em;
+  text-transform: uppercase;
+}
+h2 {
+  color: arial, helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 38px;
+  font-weight: 900;
+  margin-bottom: .6em;
+  text-transform: uppercase;
+}
+h3 {
+  color: arial, helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  margin-bottom: .6em;
+  text-transform: uppercase;
+}
+h4 {
+  color: arial, helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-weight: 900;
+  margin-bottom: .6em;
+  text-transform: uppercase;
+}
+h5 {
+  color: arial, helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: .6em;
+  text-transform: uppercase;
+}
+h6 {
+  color: arial, helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  margin-bottom: .6em;
+  text-transform: uppercase;
+}
+hgroup {
+  margin: 10px 0;
+}
+hgroup h1,
+hgroup h2,
+hgroup h3,
+hgroup h4,
+hgroup h5,
+hgroup h6 {
+  margin: 0;
+}
+ul,
+ol {
+  padding-left: 2.0em;
+}
+ul li,
+ol li {
+  margin: 0.4em;
+}
+code {
+  background-color: #EAEAEA;
+  border: 1px solid #CCC;
+  display: inline-block;
+  font-family: monospace;
+  padding: 0em 0.6em;
+  vertical-align: middle;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+em {
+  font-style: italic;
+}
+strong {
+  font-weight: 900;
+}
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.text-right {
+  text-align: right;
+}
+/*# sourceMappingURL=Main.css.map */

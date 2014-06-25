@@ -1,0 +1,11 @@
+﻿.icon-activity {
+  color: #CCC;
+  font-size: 35px;
+}
+.icon-activity:hover {
+  color: #AAA;
+}
+.icon-activity.icon-twitter {
+  font-size: 30px;
+}
+/*# sourceMappingURL=Icons.css.map */

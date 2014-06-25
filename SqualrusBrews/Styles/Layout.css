@@ -1,0 +1,63 @@
+﻿.container {
+  margin: 0 auto;
+  width: 1600px;
+  overflow: hidden;
+}
+.content {
+  margin: 0 auto;
+  width: 960px;
+}
+[class^='span-'] {
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
+}
+.span-3 {
+  width: 220px;
+}
+.span-7 {
+  width: 540px;
+}
+.span-9 {
+  width: 700px;
+}
+[class^='span-'] + [class^='span-'] {
+  margin-left: -4px;
+}
+.main-content {
+  position: relative;
+}
+.main-content .toggle-switch {
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+.sidebar {
+  margin-right: 0;
+  width: 240px;
+}
+.sidebar ul {
+  margin: 0;
+}
+footer {
+  background-color: #1d0100;
+  color: #777777;
+  margin: 0;
+  padding: 25px 0 80px;
+}
+footer p {
+  margin: 0;
+}
+.sb-brewList {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.sb-brewList li {
+  display: block;
+}
+.sb-brewList li a {
+  border: 1px solid #000;
+  display: block;
+}
+/*# sourceMappingURL=Layout.css.map */

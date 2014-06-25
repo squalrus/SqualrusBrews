@@ -1,0 +1,13 @@
+﻿section {
+  padding: 90px 0;
+}
+.sb-welcome {
+  background-image: url(/Content/Images/congruent_pentagon.png);
+  background-repeat: repeat;
+  color: #222;
+}
+.sb-brews {
+  background-image: url(/Content/Images/old_map.png);
+  color: #222;
+}
+/*# sourceMappingURL=Sections.css.map */
