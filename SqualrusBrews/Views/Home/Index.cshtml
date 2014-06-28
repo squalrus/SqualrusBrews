@@ -1,4 +1,6 @@
-﻿@{
+﻿@model List<SqualrusBrews.Models.BeerViewModel>
+
+@{
     ViewBag.Title = "Beer";
 }
 
@@ -20,6 +22,10 @@
                     <span>Beer Type</span>
                 </a>
             </li>
+            @foreach (SqualrusBrews.Models.BeerViewModel beer in Model)
+            {
+                <li>@beer.Name</li>
+            }
         </ul>
     </div>
 </section>
@@ -35,5 +41,6 @@
                 </a>
             </li>
         </ul>
+
     </div>
 </section>
