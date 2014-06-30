@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "file": "BrewList.css",
+  "sources": [
+    "BrewList.less"
+  ],
+  "names": [],
+  "mappings": "AAAA;EACI,SAAA;EACA,UAAA;EACA,WAAA;;AAHJ,SAKI;EACI,cAAA;;AANR,SAKI,GAGI;EACI,sBAAA;EACA,cAAA"
+}

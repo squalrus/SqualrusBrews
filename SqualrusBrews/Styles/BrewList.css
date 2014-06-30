@@ -1,0 +1,13 @@
+﻿.brewList {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.brewList li {
+  display: block;
+}
+.brewList li a {
+  border: 1px solid #000;
+  display: block;
+}
+/*# sourceMappingURL=BrewList.css.map */

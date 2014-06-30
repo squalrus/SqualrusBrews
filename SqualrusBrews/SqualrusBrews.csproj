@@ -183,29 +183,17 @@
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\stream.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Styles\Buttons.css">
-      <DependentUpon>Buttons.less</DependentUpon>
+    <Content Include="Styles\BrewList.css">
+      <DependentUpon>BrewList.less</DependentUpon>
     </Content>
     <Content Include="Styles\Icons.css">
       <DependentUpon>Icons.less</DependentUpon>
     </Content>
-    <Content Include="Styles\Layout.css">
-      <DependentUpon>Layout.less</DependentUpon>
-    </Content>
-    <Content Include="Styles\Lib\Reset.css">
-      <DependentUpon>Reset.less</DependentUpon>
-    </Content>
     <Content Include="Styles\Main.css">
       <DependentUpon>Main.less</DependentUpon>
     </Content>
-    <Content Include="Styles\Navigation.css">
-      <DependentUpon>Navigation.less</DependentUpon>
-    </Content>
     <Content Include="Styles\Sections.css">
       <DependentUpon>Sections.less</DependentUpon>
-    </Content>
-    <Content Include="Styles\Table.css">
-      <DependentUpon>Table.less</DependentUpon>
     </Content>
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -221,42 +209,23 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Beer\Index.cshtml" />
-    <Content Include="Styles\Buttons.less" />
     <Content Include="Styles\Definition\Color.d.less" />
-    <Content Include="Styles\Definition\Font.d.less" />
-    <Content Include="Styles\Definition\Mixin.d.less" />
     <Content Include="Styles\Icons.less" />
-    <Content Include="Styles\Layout.less" />
     <Content Include="Styles\Lib\FontAwesome.less" />
-    <Content Include="Styles\Lib\Reset.less" />
-    <Content Include="Styles\Main.less" />
-    <Content Include="Styles\Navigation.less" />
     <Content Include="Styles\Sections.less" />
-    <Content Include="Styles\squalrusbrews.responsive.less" />
-    <Content Include="Styles\Table.less" />
-    <Content Include="Styles\Buttons.css.map">
-      <DependentUpon>Buttons.css</DependentUpon>
-    </Content>
     <Content Include="Styles\Icons.css.map">
       <DependentUpon>Icons.css</DependentUpon>
-    </Content>
-    <Content Include="Styles\Layout.css.map">
-      <DependentUpon>Layout.css</DependentUpon>
-    </Content>
-    <Content Include="Styles\Main.css.map">
-      <DependentUpon>Main.css</DependentUpon>
-    </Content>
-    <Content Include="Styles\Navigation.css.map">
-      <DependentUpon>Navigation.css</DependentUpon>
     </Content>
     <Content Include="Styles\Sections.css.map">
       <DependentUpon>Sections.css</DependentUpon>
     </Content>
-    <Content Include="Styles\Table.css.map">
-      <DependentUpon>Table.css</DependentUpon>
+    <Content Include="Styles\BrewList.less" />
+    <Content Include="Styles\BrewList.css.map">
+      <DependentUpon>BrewList.css</DependentUpon>
     </Content>
-    <Content Include="Styles\Lib\Reset.css.map">
-      <DependentUpon>Reset.css</DependentUpon>
+    <Content Include="Styles\Main.less" />
+    <Content Include="Styles\Main.css.map">
+      <DependentUpon>Main.css</DependentUpon>
     </Content>
   </ItemGroup>
   <ItemGroup>

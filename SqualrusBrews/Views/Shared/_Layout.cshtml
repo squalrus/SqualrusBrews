@@ -5,29 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title | Squalrus Brews</title>
     <meta name="description" content="Squalrus Brews - home of beer." />
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
-
+    <link rel="stylesheet" href="http://garment.squalr.us/dist/outfit/latest.min.css" />
+    @Styles.Render("~/bundles/styles")
+    @Scripts.Render("~/bundles/scripts")
 </head>
 <body>
-    <nav class="navbar navbar-fixed">
-        <div class="container">
-            @Html.ActionLink("Squalrus Brews", "Index", "Home")
-        </div>
-    </nav>
+    <header>
+        <nav>
+            <a href="/">Squalrus Brews</a>
+            <ul>
+                <li><a href="/beer">Brews</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="container">
+    <div class="gmt-container">
         @RenderBody()
     </div>
 
     <footer>
-        <div class="container">
+        <div class="gmt-content">
             <p>&copy; @DateTime.Now.Year Chad Schulz</p>
         </div>
     </footer>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 </body>
 </html>
